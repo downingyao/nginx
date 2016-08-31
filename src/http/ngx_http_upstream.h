@@ -29,6 +29,16 @@
 #define NGX_HTTP_UPSTREAM_FT_UPDATING        0x00000400
 #define NGX_HTTP_UPSTREAM_FT_BUSY_LOCK       0x00000800
 #define NGX_HTTP_UPSTREAM_FT_MAX_WAITING     0x00001000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_570        0x00002000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_571        0x00004000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_572        0x00008000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_573        0x00010000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_574        0x00020000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_575        0x00040000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_576        0x00080000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_577        0x00100000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_578        0x00200000
+#define NGX_HTTP_UPSTREAM_FT_HTTP_579        0x00400000
 #define NGX_HTTP_UPSTREAM_FT_NOLIVE          0x40000000
 #define NGX_HTTP_UPSTREAM_FT_OFF             0x80000000
 
@@ -36,6 +46,16 @@
                                              |NGX_HTTP_UPSTREAM_FT_HTTP_502  \
                                              |NGX_HTTP_UPSTREAM_FT_HTTP_503  \
                                              |NGX_HTTP_UPSTREAM_FT_HTTP_504  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_570  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_571  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_572  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_573  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_574  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_575  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_576  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_577  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_578  \
+                                             |NGX_HTTP_UPSTREAM_FT_HTTP_579  \
                                              |NGX_HTTP_UPSTREAM_FT_HTTP_403  \
                                              |NGX_HTTP_UPSTREAM_FT_HTTP_404)
 
