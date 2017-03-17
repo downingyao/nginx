@@ -20,7 +20,7 @@ tar -xjf pcre-$PCRE_V.tar.bz2
 ZLIB_V=1.2.8
 rm -rf zlib-*
 echo -n "downloading zlib-$ZLIB_V... "
-wget -O zlib-$ZLIB_V.tar.gz http://zlib.net/zlib-$ZLIB_V.tar.gz
+wget -O zlib-$ZLIB_V.tar.gz http://zlib.net/fossils/zlib-$ZLIB_V.tar.gz
 echo "ok"
 tar -xzf zlib-$ZLIB_V.tar.gz
 
